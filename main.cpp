@@ -23,7 +23,7 @@ if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
 }
 cout<<"binarnie to:";
 for(i=0;i<10;i++)cout<<t[i];
-cout<<".";
+cout<<".";//dodanie komentazu.
 for(i=0;i<100;i++)cout<<u[i];
     return 0;
 }
